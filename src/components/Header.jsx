@@ -14,7 +14,7 @@ function Header() {
 
   return (
     <header className="bg-[#00000005]  py-7 ">
-      <div className=" max-w-[1261px] mx-auto flex justify-between items-center">
+      <div className=" max-w-[1261px] px-5 mx-auto flex justify-between items-center">
         <NavLink to={'/'}>
           <img src={logo} alt="my_site_logo" />
         </NavLink>
