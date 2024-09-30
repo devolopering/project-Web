@@ -55,7 +55,7 @@ function ELD() {
           <Flowbite theme={{ theme: customTheme }}>
             <div className="flex items-center mt-[60px] gap-[26px]">
               <Button color="primary">
-                <span className="flex items-center rounded-lg shadow-[0_4px_10px_rgba(255,186,111,0.3)]">
+                <span className="flex items-center rounded-lg ">
                   Get Your ELD Today{" "}
                   <FaArrowUpRightFromSquare className="ml-2" />
                 </span>
