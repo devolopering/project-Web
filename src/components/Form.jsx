@@ -31,7 +31,7 @@ function Form() {
   };
 
   return (
-    <div className="bg-[#161618] p-6 rounded-md w-full">
+    <div className="bg-[#161618] p-[42px] rounded-md w-full">
       <form onSubmit={handleSubmit}>
         <label htmlFor="name" className="text-[rgba(255,255,255,0.4)]">Name</label>
         <input 
@@ -40,7 +40,7 @@ function Form() {
           placeholder='Alex Johnson' 
           value={formData.name} 
           onChange={handleChange} 
-          className="bg-[#202022] text-white placeholder:text-gray-400 px-[14px] py-[17px] rounded-md w-full mb-4 outline-none "
+          className="bg-[#202022] text-white placeholder:text-gray-400 px-[14px] py-[17px] rounded-lg w-full mb-4 outline-none "
         />
         
         <label htmlFor="email" className="text-[rgba(255,255,255,0.4)]">Email</label>
@@ -50,12 +50,12 @@ function Form() {
           placeholder='youremail@gmail.com' 
           value={formData.email} 
           onChange={handleChange} 
-          className="bg-[#202022] text-white placeholder:text-gray-400 px-[14px] py-[17px] outline-none rounded-md w-full mb-4"
+          className="bg-[#202022] text-white placeholder:text-gray-400 px-[14px] py-[17px] outline-none rounded-lg w-full mb-4"
         />
         
         <Flowbite theme={{ theme: customTheme }}>
           <div className="flex items-center mt-[60px] gap-[26px]">
-            <Button color="primary">
+            <Button color="primary" type='submit'>
               <span className="flex items-center text-[18.95px] font-sf-pro-display font-medium gap-2">
               Submit Inquiry
                 <img src={messeag} alt="messag icon" />
