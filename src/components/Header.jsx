@@ -14,7 +14,7 @@ function Header() {
   ];
 
   return (
-    <header className="bg-[#00000005] py-7">
+    <header className="bg-header backdrop-blur-[35px] py-7 fixed top-0 left-0 right-0 w-full z-50 ">
       <div className="max-w-[1261px] px-5 mx-auto flex justify-between items-center">
         <NavLink to={'/'}>
           <img src={logo} alt="my_site_logo" />
@@ -23,7 +23,7 @@ function Header() {
         <nav>
           <ul className="flex space-x-6">
             {links.map((link, index) => (
-              <li key={index} className="flex items-center">
+              <li key={index} className="flex items-center font-sf-pro-display">
                 <NavLink 
                   to={link === 'Home' ? '/' : `/${link.replace(/\s+/g, '-').toLowerCase()}`} 
                   className={({ isActive }) => 
