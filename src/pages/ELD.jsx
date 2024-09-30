@@ -2,7 +2,7 @@ import { Button, Flowbite } from "flowbite-react";
 import React from "react";
 import Success from "/truck_n2.png";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
-import { FaPhoneAlt } from "react-icons/fa";
+import { MdOutlinePhone } from "react-icons/md";
 
 const customTheme = {
   button: {
@@ -55,7 +55,7 @@ function ELD() {
               </span>
             </Button>
             <Button color="secondary" className="rounded-lg ">
-              Request a Free Consultation <FaPhoneAlt />
+              Request a Free Consultation <MdOutlinePhone style={{color: "black"}} />
             </Button>
           </div>
         </Flowbite>
