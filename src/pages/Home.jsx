@@ -77,7 +77,7 @@ function Home() {
   };
   return (
     <div>
-    <div className="relative bg-cover bg-right mt-5 pb-24" style={{ backgroundImage: `url(${HomeHero})` }}> 
+    <div className="relative bg-cover bg-right mt-5 pb-24" > 
       <div className="max-w-[1261px] mx-auto px-5 flex items-start"> 
         <div className='text-white'>
           <p className="text-lg text-gray-400 mb-4 mt-[60px] font-normal font-sf-pro-display">
@@ -106,7 +106,7 @@ function Home() {
           <Flowbite theme={{ theme: customTheme }}>
             <div className="flex items-center mt-[60px] gap-[26px]">
               <Button color="primary">
-                <span className="flex items-center rounded-lg shadow-[0_4px_10px_rgba(255,186,111,0.3)]">
+                <span className="flex items-center rounded-lg ">
                   Get Started <FaArrowUpRightFromSquare className="ml-2" /> 
                 </span>
               </Button>
@@ -118,6 +118,7 @@ function Home() {
         </div>
 
         <div className="relative mt-[82px] ml-[115px]">
+          <img src={HomeHero} alt="hero img" />
           <div className="bg-[rgba(255,255,255,0.08)] backdrop-blur-[14px] absolute top-0 left-0 max-w-min flex items-center py-1 gap-1 px-3 rounded">
             <span className="w-[7px] h-[7px] rounded-full bg-[#FD560B]"></span>
             <p className="text-white font-sf-pro-display font-normal text-lg">Dispatching</p> 
@@ -179,7 +180,7 @@ function Home() {
      handleScrollLeft={handleScrollLeft}
      handleScrollRight={handleScrollRight}
 />
-<UserCard/>
+<UserCard imageCardRef={imageCardRef} />
 <SectionTitle 
      title="Let’s Get You on the Road" 
      highlightedWord="" 
