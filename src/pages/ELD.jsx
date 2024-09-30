@@ -71,28 +71,28 @@ function ELD() {
         </div>
 
         <div className="relative mt-[82px] ml-[115px]">
-          <div className="bg-[rgba(255,255,255,0.08)] opacity-[40%] backdrop-blur-[14px] absolute top-0 left-0 max-w-min flex items-center py-1 gap-1 px-3 rounded">
+          <div className="bg-[rgba(255,255,255,0.08)] backdrop-blur-[14px] absolute top-0 left-0 max-w-min flex items-center py-1 gap-1 px-3 rounded">
             <span className="w-[7px] h-[7px] rounded-full bg-[#FD560B]"></span>
             <p className="text-white font-sf-pro-display font-normal text-lg">
               Dispatching
             </p>
           </div>
 
-          <div className="bg-[rgba(255,255,255,0.08)] opacity-[40%] backdrop-blur-[14px] absolute -top-4 left-[365px] max-w-min flex items-center gap-1 py-1 px-3 rounded">
+          <div className="bg-[rgba(255,255,255,0.08)] backdrop-blur-[14px] absolute -top-4 left-[365px] max-w-min flex items-center gap-1 py-1 px-3 rounded">
             <span className="w-[7px] h-[7px] rounded-full bg-[#FD560B]"></span>
             <p className="text-white font-sf-pro-display font-normal text-[17px] text-nowrap">
               ELD Management
             </p>
           </div>
 
-          <div className="bg-[rgba(255,255,255,0.08)] opacity-[40%] backdrop-blur-[14px] absolute top-[300px] left-8 max-w-min flex py-1 items-center gap-1 px-3 rounded">
+          <div className="bg-[rgba(255,255,255,0.08)] backdrop-blur-[14px] absolute top-[300px] left-8 max-w-min flex py-1 items-center gap-1 px-3 rounded">
             <span className="w-[12px] h-[12px] rounded-full bg-[#FD560B]"></span>
             <p className="text-white font-sf-pro-display font-normal text-[32px] text-nowrap">
               ELD Service
             </p>
           </div>
 
-          <div className="bg-[rgba(255,255,255,0.08)] opacity-[40%] backdrop-blur-[14px] absolute top-[244px] left-[413px] py-1 max-w-min flex items-center gap-1 px-3 rounded">
+          <div className="bg-[rgba(255,255,255,0.08)] backdrop-blur-[14px] absolute top-[244px] left-[413px] py-1 max-w-min flex items-center gap-1 px-3 rounded">
             <span className="w-[12px] h-[12px] rounded-full bg-[#FD560B]"></span>
             <p className="text-white font-sf-pro-display font-normal text-[32px]">
               Fleet

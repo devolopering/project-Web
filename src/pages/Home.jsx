@@ -179,7 +179,7 @@ function Home() {
      handleScrollLeft={handleScrollLeft}
      handleScrollRight={handleScrollRight}
 />
-<UserCard imageCardRef={imageCardRef}/>
+<UserCard/>
 <SectionTitle 
      title="Let’s Get You on the Road" 
      highlightedWord="" 

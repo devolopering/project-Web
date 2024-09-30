@@ -14,9 +14,9 @@ function TextCard({ cardText }) {
   return (
     <div className='max-w-[1261px] mx-auto pb-[130px]'>
       <div className='grid grid-cols-1 md:grid-cols-2 mt-[50px] py-[6px] lg:grid-cols-3 gap-4'>
-        {cardText.map((card, index) => (
+        {cardText && cardText.map((card) => (
           <div
-            key={index}
+            key={card.id}
             className='pl-8 pt-8 pb-10 rounded-md cursor-pointer transition-all duration-300 bg-[#161618] hover:bg-[#FD560B]'
           >
             <h3 className='text-[30px] font-bold font-sf-pro-display text-white transition-colors duration-300 hover:text-white'>
